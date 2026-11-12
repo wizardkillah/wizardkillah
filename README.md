@@ -1,25 +1,55 @@
 # Hi, I'm Francois 👋
 
-I build software for the physical world: **industrial/building automation, geospatial risk models and
-locally-run AI tools**, with a habit of writing tests, documenting limits and keeping the attack surface small.
+I'm from Chile, and I build software that connects to the real world: **industrial and building automation, flood-risk maps, and AI tools that run on your own computer.** I like code that is simple to read, well tested, and honest about what it can't do.
 
-Based in Chile. Spanish native, English for reading and writing technical docs.
+🇪🇸 [Leer en español](#-hola-soy-francois)
 
-## Featured work
+## What I'm working on
 
-| Project | What it is | Stack |
+| Project | What it does | Built with |
 |---|---|---|
-| [**industrial-connectors**](https://github.com/wizardkillah/industrial-connectors) | Dependency-free BACnet/IP, Sauter moduWeb and Mitsubishi MC 1E clients, extracted from real critical-infrastructure monitoring. Tested against simulated devices. | Python, raw sockets |
-| [**flood-risk-simulator**](https://github.com/wizardkillah/flood-risk-simulator) | 3D flood simulator for Chile's Coquimbo Region: real terrain, HAND hydrology, rainfall forecast and a Claude-based alert advisor. Clearly labelled as a non-validated prototype. | FastAPI, CesiumJS, rasterio |
-| [**merlin-desktop-cat**](https://github.com/wizardkillah/merlin-desktop-cat) | Desktop assistant with local or cloud LLM, offline voice (whisper.cpp + Piper), SSRF-safe web reading and an allow-list for opening files. | Electron, Node |
-| [**herbal-grimoire**](https://github.com/wizardkillah/herbal-grimoire) | Educational herbal game with sourced content and image credits. | React, Vite |
+| [**industrial-connectors**](https://github.com/wizardkillah/industrial-connectors) | Small Python clients to read data from building and PLC equipment (BACnet/IP, Sauter moduWeb, Mitsubishi MC 1E). Based on real monitoring work, with no dependencies and tests against simulated devices. | Python |
+| [**flood-risk-simulator**](https://github.com/wizardkillah/flood-risk-simulator) | A 3D map of the Coquimbo Region that estimates where floods could happen, using real terrain, rain forecasts and an AI advisor. It is a prototype, and it says so clearly. | FastAPI, CesiumJS |
+| [**merlin-desktop-cat**](https://github.com/wizardkillah/merlin-desktop-cat) | A desktop assistant (a little witch cat) that works with local or cloud AI, understands voice offline, and keeps your documents on your PC by default. | Electron |
+| [**herbal-grimoire**](https://github.com/wizardkillah/herbal-grimoire) | A learning game about medicinal plants, with sourced content and credits for every image. | React, Vite |
 
 ## What I care about
 
-- **Safety by design:** no credentials in code, input validation, read-only by default, honest limitations in every README.
-- **Auditable code:** small dependency surface, protocol clients you can read in ten minutes.
-- **Applied AI with privacy in mind:** local-first models, explicit control over what leaves the machine, cost caps.
+- **Safety first:** no secrets in code, inputs are validated, and tools are read-only unless they really need to write.
+- **Code you can audit:** few dependencies, and protocol clients short enough to read in ten minutes.
+- **AI with privacy:** local models first, clear control over what leaves your computer, and limits on cost.
 
-## Tools
+## Tools I use
 
-`Python` · `JavaScript/Node` · `FastAPI` · `Electron` · `React` · `CesiumJS` · `rasterio/GDAL` · `BACnet` · `MELSEC MC` · `pytest` · `GitHub Actions`
+`Python` · `JavaScript` · `FastAPI` · `Electron` · `React` · `CesiumJS` · `rasterio` · `BACnet` · `MELSEC MC` · `pytest` · `GitHub Actions`
+
+I'm a native Spanish speaker and I'm adding English documentation to my projects.
+
+---
+
+## 🇪🇸 Hola, soy Francois
+
+Soy de Chile y hago software que se conecta con el mundo real: **automatización industrial y de edificios, mapas de riesgo de inundación y herramientas de IA que funcionan en tu propio computador.** Me gusta el código simple de leer, bien probado y honesto sobre lo que no puede hacer.
+
+🇬🇧 [Read in English](#hi-im-francois-)
+
+### En qué trabajo
+
+| Proyecto | Qué hace | Hecho con |
+|---|---|---|
+| [**industrial-connectors**](https://github.com/wizardkillah/industrial-connectors) | Clientes pequeños en Python para leer datos de equipos de edificios y PLC (BACnet/IP, Sauter moduWeb, Mitsubishi MC 1E). Nacieron de trabajo real de monitoreo, no tienen dependencias y se prueban con dispositivos simulados. | Python |
+| [**flood-risk-simulator**](https://github.com/wizardkillah/flood-risk-simulator) | Un mapa 3D de la Región de Coquimbo que estima dónde podrían ocurrir inundaciones, con terreno real, pronóstico de lluvia y un asesor con IA. Es un prototipo y lo dice con claridad. | FastAPI, CesiumJS |
+| [**merlin-desktop-cat**](https://github.com/wizardkillah/merlin-desktop-cat) | Un asistente de escritorio (un gatito brujo) que funciona con IA local o en la nube, entiende la voz sin conexión y por defecto mantiene tus documentos en tu PC. | Electron |
+| [**herbal-grimoire**](https://github.com/wizardkillah/herbal-grimoire) | Un juego para aprender sobre plantas medicinales, con contenido con fuentes y créditos de cada imagen. | React, Vite |
+
+### Lo que me importa
+
+- **Seguridad primero:** sin secretos en el código, entradas validadas y herramientas de solo lectura salvo que de verdad necesiten escribir.
+- **Código que se puede auditar:** pocas dependencias y clientes de protocolo lo bastante cortos para leerlos en diez minutos.
+- **IA con privacidad:** modelos locales primero, control claro de lo que sale de tu computador y límites de costo.
+
+### Herramientas
+
+`Python` · `JavaScript` · `FastAPI` · `Electron` · `React` · `CesiumJS` · `rasterio` · `BACnet` · `MELSEC MC` · `pytest` · `GitHub Actions`
+
+Mi lengua materna es el español y estoy agregando documentación en inglés a mis proyectos.
